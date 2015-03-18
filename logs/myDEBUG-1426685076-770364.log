@@ -1,0 +1,228 @@
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:35 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:35 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:35 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468
+[18-Mar-2015 14:28:36 Europe/Paris] PHP Warning:  array_diff(): Argument #1 is not an array in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 468
+[18-Mar-2015 14:28:36 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   6. FeedConfig->allComboFeed() K:\wamp\www\zencart\feed\plugin\zen_modules.php:108
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   7. FeedConfig->getAttributes() K:\wamp\www\zencart\feed\config\FeedConfig.php:734
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   8. FeedConfig->_getAllAttributesCombo() K:\wamp\www\zencart\feed\config\FeedConfig.php:377
+[18-Mar-2015 14:28:36 Europe/Paris] PHP   9. FeedConfig->generate() K:\wamp\www\zencart\feed\config\FeedConfig.php:394
+[18-Mar-2015 14:28:36 Europe/Paris] PHP  10. array_diff() K:\wamp\www\zencart\feed\config\FeedConfig.php:468

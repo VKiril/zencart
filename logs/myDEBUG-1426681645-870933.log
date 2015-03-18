@@ -1,0 +1,7 @@
+[18-Mar-2015 13:27:27 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at K:\wamp\www\zencart\feed\sdk\core\Feed.php:72) in K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php on line 88
+[18-Mar-2015 13:27:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 13:27:27 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 13:27:27 Europe/Paris] PHP   2. Feed->dispatch($request = *uninitialized*) K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 13:27:27 Europe/Paris] PHP   3. FeedDispatcher->dispatch($request = *uninitialized*) K:\wamp\www\zencart\feed\sdk\core\Feed.php:75
+[18-Mar-2015 13:27:27 Europe/Paris] PHP   4. FeedDispatcher->getFeed($args = *uninitialized*) K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 13:27:27 Europe/Paris] PHP   5. header(*uninitialized*) K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:88

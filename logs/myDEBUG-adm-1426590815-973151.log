@@ -1,0 +1,6 @@
+[17-Mar-2015 12:13:35 Europe/Paris] PHP Warning:  require_once(K:\wamp\www\zencart/feedify/sdk/feed.php): failed to open stream: No such file or directory in K:\wamp\www\zencart\admin21\feedify_view.php on line 59
+[17-Mar-2015 12:13:35 Europe/Paris] PHP Stack trace:
+[17-Mar-2015 12:13:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\admin21\feedify_view.php:0
+[17-Mar-2015 12:13:35 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required 'K:\wamp\www\zencart/feedify/sdk/feed.php' (include_path='.;C:\php\pear') in K:\wamp\www\zencart\admin21\feedify_view.php on line 59
+[17-Mar-2015 12:13:35 Europe/Paris] PHP Stack trace:
+[17-Mar-2015 12:13:35 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\admin21\feedify_view.php:0

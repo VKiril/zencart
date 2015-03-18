@@ -1,0 +1,7 @@
+[17-Mar-2015 14:45:36 Europe/Paris] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in K:\wamp\www\zencart\admin21\includes\init_includes\init_general_funcs.php on line 52
+[17-Mar-2015 14:45:36 Europe/Paris] PHP Stack trace:
+[17-Mar-2015 14:45:36 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\admin21\feed_view.php:0
+[17-Mar-2015 14:45:36 Europe/Paris] PHP   2. require() K:\wamp\www\zencart\admin21\feed_view.php:2
+[17-Mar-2015 14:45:36 Europe/Paris] PHP   3. require() K:\wamp\www\zencart\admin21\includes\application_top.php:147
+[17-Mar-2015 14:45:36 Europe/Paris] PHP   4. require() K:\wamp\www\zencart\includes\autoload_func.php:48
+[17-Mar-2015 14:45:36 Europe/Paris] PHP   5. strip_tags() K:\wamp\www\zencart\admin21\includes\init_includes\init_general_funcs.php:52
