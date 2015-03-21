@@ -1,0 +1,23 @@
+[21-Mar-2015 11:27:48 Europe/Paris] PHP Fatal error:  1054:Unknown column 'Array' in 'where clause' :: 
+                    select
+                        pa.products_attributes_id as products_attributes_id,
+                        pa.products_id as products_id,
+                        pa.options_id as options_id,
+                        pa.options_values_id as options_values_id,
+                        pa.options_values_price as options_values_price,
+                        pa.price_prefix as price_prefix
+                    from products_attributes pa
+                    where pa.products_id in (Array)
+
+         in K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php on line 120
+[21-Mar-2015 11:27:48 Europe/Paris] PHP Stack trace:
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   6. FeedConfig->getProductsAtt() K:\wamp\www\zencart\feed\plugin\zen_modules.php:102
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   7. queryFactory->Execute() K:\wamp\www\zencart\feed\config\FeedConfig.php:316
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   8. queryFactory->set_error() K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php:227
+[21-Mar-2015 11:27:48 Europe/Paris] PHP   9. queryFactory->show_error() K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php:105
+[21-Mar-2015 11:27:48 Europe/Paris] PHP  10. trigger_error() K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php:120

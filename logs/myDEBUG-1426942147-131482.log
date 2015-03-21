@@ -1,0 +1,3 @@
+[21-Mar-2015 13:49:08 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 363
+[21-Mar-2015 13:49:08 Europe/Paris] PHP Stack trace:
+[21-Mar-2015 13:49:08 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0

@@ -1,0 +1,35 @@
+[18-Mar-2015 22:34:17 Europe/Paris] PHP Fatal error:  1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,)' at line 23 :: 
+            SELECT	pa.products_id AS id,
+	        pov.products_options_values_name,
+
+            pa.options_id,
+            pa.options_values_price,
+            pa.products_attributes_id,
+            pa.price_prefix,
+            pa.options_values_id,
+            pa.attributes_required,
+            po.products_options_type,
+            pa.products_attributes_weight_prefix AS weight_prefix,
+            pa.attributes_image,
+            pa.products_attributes_weight,
+            po.products_options_name
+
+            FROM	products_attributes pa
+
+            LEFT JOIN products_options po
+            ON (po.products_options_id = pa.options_id)
+
+            LEFT JOIN products_options_values pov
+            ON (pa.options_values_id = pov.products_options_values_id)
+         WHERE pa.products_id IN (,,,,,,,,,) in K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php on line 120
+[18-Mar-2015 22:34:17 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   6. FeedConfig->getProductsAttributes() K:\wamp\www\zencart\feed\plugin\zen_modules.php:103
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   7. queryFactory->Execute() K:\wamp\www\zencart\feed\config\FeedConfig.php:558
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   8. queryFactory->set_error() K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php:227
+[18-Mar-2015 22:34:17 Europe/Paris] PHP   9. queryFactory->show_error() K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php:105
+[18-Mar-2015 22:34:17 Europe/Paris] PHP  10. trigger_error() K:\wamp\www\zencart\includes\classes\db\mysql\query_factory.php:120

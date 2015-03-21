@@ -5,6 +5,9 @@ class FeedConfig{
 
 	public $productsIds;
 	public $productsId;
+    public $manufactures ;
+    public $product_options;
+    public $product_option_values;
 	public $productAttributes;
 	public $defaultsShipping;
 	public $defaultPAvailability;
@@ -297,14 +300,74 @@ class FeedConfig{
         return  $response;
     }
 
-    public function getProductsAtt(){
-        $db = $GLOBALS['db'];
-        $select  = '
-                    select
-                        
-        ';
 
-        return 1;
+    public function getProductsAttr(){
+        $db = $GLOBALS['db'];
+        $query  = '
+                    select
+                        pa.products_attributes_id as products_attributes_id,
+                        pa.products_id as products_id,
+                        pa.options_id as options_id,
+                        pa.options_values_id as options_values_id,
+                        pa.options_values_price as options_values_price,
+                        pa.price_prefix as price_prefix
+                    from '.TABLE_PRODUCTS_ATTRIBUTES.' pa
+                    where pa.products_id in ('.$this->productsId.')
+
+        ';
+        $response = $this->dataFetch($db->Execute($query), true);
+
+        $lastProductId = null;
+        $idList = array();
+        $temp = array();
+
+        foreach ($response[0] as $key=>$value) {
+            $temp[$key] = array();
+        }
+
+        foreach ($response as $item) {
+            if($lastProductId != $item['products_id'] ){
+                $idList[] = $item['products_id'];
+            }
+            $lastProductId = $item['products_id'];
+        }
+        foreach ($idList as $item) {
+            foreach ($response as $attribute) {
+                if($item == $attribute['products_id']){
+                    foreach ($attribute as $key=>$value) {
+                        $temp[$item][$key][] = $value;
+                    }
+                }
+            }
+            $temp[$item]['options_list'] = array();
+        }
+        foreach ($temp as $key=>$item) {
+            if(empty($item)){
+                unset($temp[$key]);
+            }
+        }
+        $option_var = null;
+        $option_array = array();
+        foreach ($temp as $key=>$item) {
+            foreach ($item['options_id'] as $element) {
+                if($element != $option_var){
+                    $option_array[$key][] =  (int) $element ;
+                }
+                $option_var = $element;
+            }
+            $buff = array();
+            foreach ($option_array[$key] as $value) {
+                foreach ($temp[$key]['options_id'] as $key2 => $element) {
+                    if($value == $element) {
+                        $buff[$value][] = $key2;
+                    }
+                }
+            }
+            $temp[$key]['options_list'] = $buff ;
+            unset($temp[$key]['options_id']);
+        }
+
+        return $temp;
     }
 
     /**
@@ -751,9 +814,49 @@ class FeedConfig{
 
 		$this->getFeedifyShippingParameters();
 		$this->_iniExtraAttributesParameters();
+        $this->setProductsOptions();
+        $this->setManufactures();
 	}
 
+    public function setManufactures(){
+        $query = '
+                select
+                    m.manufacturers_id as manufacturers_id,
+                    m.manufacturers_name as manufacturers_name
+                from '.TABLE_MANUFACTURERS.' m
+        ';
+        $db = $GLOBALS['db'];
+        $manufactures  = $this->dataFetch($db->Execute($query));
+        $temp = array();
+        foreach ($manufactures as $key => $value) {
+            $temp[$value['manufacturers_id']] = $value['manufacturers_name'];
+        }
+        $this->manufactures=$temp;
+    }
 
+    public function setProductsOptions(){
+        $db = $GLOBALS['db'];
+        $select_options = '
+                    select
+                        po.products_options_id as products_options_id,
+                        po.products_options_name as products_options_name,
+                        po.products_options_length as products_options_length,
+                        po.products_options_size as products_options_size
+
+                    from '.TABLE_PRODUCTS_OPTIONS.' po
+        ';
+
+        $this->product_options  = $this->dataFetch($db->Execute($select_options));
+
+        $select_options_attributes = '
+                    select
+                        pov.products_options_values_id as options_values_id,
+                        pov.products_options_values_name as options_values_name
+                    from '.TABLE_PRODUCTS_OPTIONS_VALUES.' pov
+        ';
+        $this->product_option_values  = $this->dataFetch($db->Execute($select_options_attributes));
+
+    }
 
 //---------------------- functionality part
 
@@ -1478,6 +1581,215 @@ class FeedConfig{
 			return $parent_query->fields['parent_id'];
 		}
 	}
+
+
+    function allCombinations($arrays)
+    {
+        $result = array();
+        $arrays = array_values($arrays);
+        $sizeIn = sizeof($arrays);
+        $size = $sizeIn > 0 ? 1 : 0;
+        foreach ($arrays as $array)
+            $size = $size * sizeof($array);
+        for ($i = 0; $i < $size; $i ++)
+        {
+            $result[$i] = array();
+            for ($j = 0; $j < $sizeIn; $j ++)
+                array_push($result[$i], current($arrays[$j]));
+            for ($j = ($sizeIn -1); $j >= 0; $j --)
+            {
+                if (next($arrays[$j]))
+                    break;
+                elseif (isset ($arrays[$j]))
+                    reset($arrays[$j]);
+            }
+        }
+        return $result;
+    }
+
+    public function uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap){
+        $allCombinations = $this->allCombinations($attributes[$product['products_id']]['options_list']);
+        $row = array();
+       /* foreach($fieldMap as $key => $value) {
+            foreach ($attributes as $key1=>$value1) {
+                if(array_key_exists($product['products_id'],$attributes) ){
+                    foreach ($allCombinations as $combinations) {
+                        $row[$key] = $this->getRowElements($value, $attributes, $product, $combinations);
+                    }
+                } else {
+                    $row[$key] = $this->getRowElements($value, $attributes, $product);
+                }
+            }
+        }*/
+
+        if(array_key_exists($product['products_id'],$attributes) ){
+            foreach ($allCombinations as $combinations) {
+                foreach($fieldMap as $key => $value) {
+                    $row[$key] = $this->getRowElements($value, $attributes, $product, $combinations);
+                }
+            }
+        }
+
+
+        var_dump($row);die;
+    }
+    public function getRowElements($field, $attributes, $product, $combinations = null ){
+        //var_dump($product);die;
+        switch($field){
+            case 'ModelOwn'              : {
+                return $product['products_id'];
+            }//
+            case 'Name'                  : {
+                return $product['products_name'];
+            }//
+            case 'Subtitle'              : {
+                return 1;
+            }
+            case 'Description'           : {
+                return $product['products_description'];
+            }//
+            case 'AdditionalInfo'        : {
+                return $product['products_url'];
+            }//
+            case 'Image'                 : {
+                return 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME'])."/images/".$product['products_image'];
+            }//
+            case 'Manufacturer'          : {
+                return $this->manufactures[$product['manufacturers_id']];
+            }//
+            case 'Model'                 : {
+                return $product['products_model'];
+            }//
+            case 'Category'              : {
+                return 1;
+            }
+            case 'CategoriesGoogle'      : {
+                return 1;
+            }
+            case 'CategoriesYatego'      : {
+                return 1;
+            }
+            case 'ProductsEAN'           : {
+                return 1;
+            }
+            case 'ProductsISBN'          : {
+                return 1;
+            }
+            case 'Productsprice_brut'    : {
+                return 1;
+            }
+            case 'Productspecial'        : {
+                return 1;
+            }
+            case 'Productsprice_uvp'     : {
+                return 1;
+            }
+            case 'BasePrice'             : {
+                return $product['products_price'];
+            }//
+            case 'BaseUnit'              : {
+                return 1;
+            }
+            case 'Productstax'           : {
+                return 1;
+
+            }
+            case 'ProductsVariant'       : {
+                return 1;
+
+            }
+            case 'Currency'              : {
+                return 1;
+
+            }
+            case 'Quantity'              : {
+                return $product['products_quantity'];
+            }//
+            case 'Weight'                : {
+                return $product['products_weight'];
+
+            }//
+            case 'AvailabilityTxt'       : {
+                return 1;
+
+            }
+            case 'Condition'             : {
+                return 1;
+
+            }
+            case 'Coupon'                : {
+                return 1;
+
+            }
+            case 'Gender'                : {
+                return 1;
+
+            }
+            case 'Size'                  : {
+                return 1;
+
+            }
+            case 'Color'                 : {
+                return 1;
+
+            }
+            case 'Material'              : {
+                return 1;
+
+            }
+            case 'Packet_size'           : {
+                return 1;
+
+            }
+            case 'DeliveryTime'          : {
+                return 1;
+
+            }
+            case 'Shipping'              : {
+                return 1;
+            }
+            case 'ShippingAddition'      : {
+                return 1;
+            }
+            case 'shipping_paypal_ost'   : {
+                return 1;
+            }
+            case 'shipping_cod'          : {
+                return 1;
+            }
+            case 'shipping_credit'       : {
+                return 1;
+            }
+            case 'shipping_paypal'       : {
+                return 1;
+            }
+            case 'shipping_transfer'     : {
+                return 1;
+            }
+            case 'shipping_debit'        : {
+                return 1;
+            }
+            case 'shipping_account'      : {
+                return 1;
+            }
+            case 'shipping_moneybookers' : {
+                return 1;
+            }
+            case 'shipping_giropay'      : {
+                return 1;
+            }
+            case 'shipping_click_buy'    : {
+                return 1;
+            }
+            case 'shipping_comment'      : {
+                return 1;
+            }
+            default:{
+                return 1;
+            }
+        }
+    }
+
 
 }
 

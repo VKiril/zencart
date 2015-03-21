@@ -98,14 +98,19 @@ class FeedConnector implements FeedPlugin {
         do{
             //$temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
             $products = $this->config->getProducts($limit, $offset);
-            //var_dump($this->config->productsId);die;
-            $attributes = $this->config->getProductsAtt();
+
+            $attributes = $this->config->getProductsAttr();
+            foreach ($products as $product) {
+                $this->config->uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap);
+            }
+
+            //var_dump($attributes);die;
 			$this->config->getProductsAttributes(array(), $this->config->productsIds);
 			//$attributes = $this->config->productAttributes;
 			unset($this->config->productsIds);
 
             $count = 0;
-           /* foreach($temp_result as $key=>$result) {
+            foreach($temp_result as $key=>$result) {
 
                 $this->config->allComboFeed($result, $attributes, $fieldMap, $queryParameters, $csv_file);
 
@@ -114,7 +119,7 @@ class FeedConnector implements FeedPlugin {
 				flush();
                 ++$count;
             }
-            $offset += $limit;*/
+            $offset += $limit;
 			//break;
         } while ($count == $limit);
 
