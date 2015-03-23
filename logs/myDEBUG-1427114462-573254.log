@@ -1,0 +1,27 @@
+[23-Mar-2015 13:41:04 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in K:\wamp\www\zencart\feed\config\FeedConfig.php(1741) : eval()'d code on line 1
+[23-Mar-2015 13:41:04 Europe/Paris] PHP Stack trace:
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   6. FeedConfig->uploadCSVfileWithCombinations() K:\wamp\www\zencart\feed\plugin\zen_modules.php:116
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   7. FeedConfig->getRowElements() K:\wamp\www\zencart\feed\config\FeedConfig.php:1682
+[23-Mar-2015 13:41:04 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in K:\wamp\www\zencart\feed\config\FeedConfig.php(1760) : eval()'d code on line 1
+[23-Mar-2015 13:41:04 Europe/Paris] PHP Stack trace:
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   6. FeedConfig->uploadCSVfileWithCombinations() K:\wamp\www\zencart\feed\plugin\zen_modules.php:116
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   7. FeedConfig->getRowElements() K:\wamp\www\zencart\feed\config\FeedConfig.php:1682
+[23-Mar-2015 13:41:04 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in K:\wamp\www\zencart\feed\config\FeedConfig.php(1787) : eval()'d code on line 1
+[23-Mar-2015 13:41:04 Europe/Paris] PHP Stack trace:
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   6. FeedConfig->uploadCSVfileWithCombinations() K:\wamp\www\zencart\feed\plugin\zen_modules.php:116
+[23-Mar-2015 13:41:04 Europe/Paris] PHP   7. FeedConfig->getRowElements() K:\wamp\www\zencart\feed\config\FeedConfig.php:1682

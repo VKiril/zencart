@@ -3,6 +3,7 @@
 
 class FeedConfig {
 
+    public $feedData;
     public $productsCategory;
 	public $productsIds;
 	public $productsId;
@@ -313,8 +314,8 @@ class FeedConfig {
                         pa.options_values_id as options_values_id,
                         pa.options_values_price as options_values_price,
                         pa.price_prefix as price_prefix,
-                        pa.products_attributes_weight as products_attributes_weight,
-                        pa.products_attributes_weight_prefix as products_attributes_weight_prefix
+                        pa.products_attributes_weight as attributes_weight,
+                        pa.products_attributes_weight_prefix as attributes_weight_prefix
                     from '.TABLE_PRODUCTS_ATTRIBUTES.' pa
                     where pa.products_id in ('.$this->productsId.')
 
@@ -363,7 +364,7 @@ class FeedConfig {
             foreach ($option_array[$key] as $value) {
                 foreach ($temp[$key]['options_id'] as $key2 => $element) {
                     if($value == $element) {
-                        $buff[$value][] = $key2;
+                        $buff[$value][$key2] = $temp[$key]['options_values_id'][$key2];
                     }
                 }
             }
@@ -821,7 +822,25 @@ class FeedConfig {
         $this->setProductsOptions();
         $this->setManufactures();
         $this->setCategories();
+        $this->getFeedifyFormData();
 	}
+
+    public function getFeedifyFormData(){
+        $query = '
+                select
+                    c.configuration_value as 	configuration_value,
+                    c.configuration_key as configuration_key
+                from '.TABLE_CONFIGURATION.' c
+                where c.configuration_key like "%FEED%"
+        ';
+        $db = $GLOBALS['db'];
+        $temp = $this->dataFetch($db->Execute($query));
+        $array = array();
+        foreach ($temp as $item) {
+            $array[$item['configuration_key']] = $item['configuration_value'];
+        }
+        $this->feedData = $array ;
+    }
 
     public function setCategories(){
         $query = '
@@ -895,9 +914,12 @@ class FeedConfig {
                         pov.products_options_values_name as options_values_name
                     from '.TABLE_PRODUCTS_OPTIONS_VALUES.' pov
         ';
-
-        $this->product_option_values  = $this->dataFetch($db->Execute($select_options_attributes));
-
+        $result2  = $this->dataFetch($db->Execute($select_options_attributes));
+        $temp1 = array();
+        foreach ($result2 as $result) {
+            $temp1[$result['options_values_id']] = $result['options_values_name'] ;
+        }
+        $this->product_option_values = $temp1 ;
     }
 
 //---------------------- functionality part
@@ -1628,6 +1650,7 @@ class FeedConfig {
     function allCombinations($arrays)
     {
         $result = array();
+        $arrayKeys = array_keys($arrays);
         $arrays = array_values($arrays);
         $sizeIn = sizeof($arrays);
         $size = $sizeIn > 0 ? 1 : 0;
@@ -1646,7 +1669,15 @@ class FeedConfig {
                     reset($arrays[$j]);
             }
         }
-        return $result;
+        $temp = array();
+        foreach ($result as $key1=>$item) {
+            foreach ($item as $key2=>$element) {
+                $temp[$key1][$arrayKeys[$key2]] = $element ;
+            }
+
+        }
+
+        return $temp;
     }
 
     public function uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap, $shopConfig,$queryParameters){
@@ -1676,6 +1707,9 @@ class FeedConfig {
 
     }
     public function getRowElements($field, $attributes, $product, $combinations = null , $shopConfig, $queryParameters ){
+        //var_dump($combinations);die;
+        //var_dump($attributes[1]['options_list']);die;
+
 
         switch($field){
             case 'ModelOwn'              : {
@@ -1718,7 +1752,17 @@ class FeedConfig {
                 return 1;
             }
             case 'Productsprice_brut'    : {
+                if($attributes[$product['products_id']]){
+                    foreach ($combinations as $combination) {
+                        $a = $attributes[$product['products_id']]['options_values_price'][$combination];
+                        $b = $attributes[$product['products_id']]['price_prefix'][$combination];
+                        $expression = $b.$a;
+                        eval( '$result += (' . $expression . ');' );
+                        return ((($product['products_price']+$result)*$this->getProductTax($product)) / 100) + ($product['products_price']+$result);
+                    }
+                }
                 return ((($product['products_price'])*$this->getProductTax($product)) / 100) + ($product['products_price']);
+
             }//
             case 'Productspecial'        : {
                 return 1;
@@ -1727,6 +1771,15 @@ class FeedConfig {
                 return 1;
             }
             case 'BasePrice'             : {
+                if($attributes[$product['products_id']]){
+                    foreach ($combinations as $combination) {
+                        $a = $attributes[$product['products_id']]['options_values_price'][$combination];
+                        $b = $attributes[$product['products_id']]['price_prefix'][$combination];
+                        $expression = $b.$a;
+                        eval( '$result += (' . $expression . ');' );
+                        return $result + $product['products_price'] ;
+                    }
+                }
                 return $product['products_price'];
             }//
             case 'BaseUnit'              : {
@@ -1746,7 +1799,13 @@ class FeedConfig {
             }//
             case 'Weight'                : {
                 if($attributes[$product['products_id']]){
-                    return $product['products_weight'];
+                    foreach ($combinations as $combination) {
+                        $a = $attributes[$product['products_id']]['attributes_weight'][$combination];
+                        $b = $attributes[$product['products_id']]['attributes_weight_prefix'][$combination];
+                        $expression = $b.$a;
+                        eval( '$result += (' . $expression . ');' );
+                        return $result + $product['products_weight'] ;
+                    }
                 }
                 return $product['products_weight'];
 
@@ -1768,17 +1827,31 @@ class FeedConfig {
 
             }
             case 'Size'                  : {
-                return 1;
-
-            }
+                foreach ($attributes[$product['products_id']]['options_list'] as $key=>$value) {
+                    if(strtolower($this->product_options[$key]['products_options_name']) == 'size' ){
+                        return $this->product_option_values[$combinations[$key]];
+                    }
+                }
+                return '';
+            }//
             case 'Color'                 : {
-                return 1;
+                foreach ($attributes[$product['products_id']]['options_list'] as $key=>$value) {
+                    if(strtolower($this->product_options[$key]['products_options_name']) == 'color' ){
+                        return $this->product_option_values[$combinations[$key]];
+                    }
+                }
+                return '';
 
-            }
+            }//
             case 'Material'              : {
-                return 1;
+                foreach ($attributes[$product['products_id']]['options_list'] as $key=>$value) {
+                    if(strtolower($this->product_options[$key]['products_options_name']) == 'iron' ){
+                        return $this->product_option_values[$combinations[$key]];
+                    }
+                }
+                return '';
 
-            }
+            }//
             case 'Packet_size'           : {
                 return 1;
 

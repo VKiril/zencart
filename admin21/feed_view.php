@@ -344,19 +344,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_ADDITION_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_ADDITION_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs for paypal Austria:</td>
@@ -366,19 +374,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_PAYPAL_OST_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_PAYPAL_OST_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_OST_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping cost for Cash on Deliver:</td>
@@ -388,19 +404,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_COD_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_COD_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_COD_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping cost for Creditcard:</td>
@@ -410,19 +434,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_CREDIT_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_3') == 'N') echo "selected"; ?> >-- empty --</option>
+       <!-- <td>or<select name="FEED_SHIPPING_CREDIT_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_CREDIT_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs for paypal:</td>
@@ -432,19 +464,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_PAYPAL_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_PAYPAL_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_PAYPAL_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs Ready for Transfer:</td>
@@ -454,19 +494,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_TRANSFER_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_TRANSFER_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_TRANSFER_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs ELV:</td>
@@ -476,19 +524,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_DEBIT_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_DEBIT_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_DEBIT_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs for purchase orders:</td>
@@ -498,19 +554,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_ACCOUNT_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_ACCOUNT_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_ACCOUNT_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs at Moneybookers:</td>
@@ -520,19 +584,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_MONEYBOOKERS_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_MONEYBOOKERS_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_MONEYBOOKERS_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs Click & Buy:</td>
@@ -542,19 +614,27 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_CLICK_BUY_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_3') == 'N') echo "selected"; ?> >-- empty --</option>
+       <!-- <td>or<select name="FEED_SHIPPING_CLICK_BUY_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_CLICK_BUY_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Shipping costs Giropay:</td>
@@ -564,62 +644,63 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+                    echo '<option value='.$column['table_name'].';'.$column['column_name'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_2') == $column['table_name'].';'.$column['column_name']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
                 ?>
             </select>
         </td>
-        <td>or<select name="FEED_SHIPPING_GIROPAY_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_3') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or<select name="FEED_SHIPPING_GIROPAY_3"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_3') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
+/*                foreach($attributes as $attribute) {
+                    echo '<option value='.$attribute['products_options_id'];
+                    if ($feedifyConfig->getConfig('FEED_SHIPPING_GIROPAY_3') == $attribute['products_options_id']) {
+                        echo " selected ";
+                    }
+                    echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
-            </select></td>
+                */?>
+            </select></td>-->
     </tr>
     <tr>
         <td>• Delivery comment:</td>
         <td><textarea name="FEED_SHIPPING_COMMENT_1" style="margin-left: 2px;"><?php echo $feedifyConfig->getConfig('FEED_SHIPPING_COMMENT_1');?></textarea><br/></td>
-        <td>or
-            <select name="FEED_SHIPPING_COMMENT_2"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_COMMENT_2') == 'N') echo "selected"; ?> >-- empty --</option>
-                <?php
-                foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_SHIPPING_COMMENT_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
-                }
-                ?>
-            </select>
-        </td>
-        <td>or<select name="FEED_SHIPPING_COMMENT_3"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_SHIPPING_COMMENT_3') == 'N') echo "selected"; ?> >-- empty --</option>
-                <?php
-                foreach($attributes as $attribute) {
-                    echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_SHIPPING_COMMENT_3') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
-                }
-                ?>
-            </select></td>
     </tr>
 
     <tr><td><br></td></tr>
 
+
+
+
+
+
+
+
+
+
+
+
     <tr>
         <td><h1 style="color:#3f608b">- Attributes Extra:</h1></td>
     </tr>
-    <?php foreach($extraAttributes as $key => $extraAttribute) { ?>
+    <?php /*foreach($extraAttributes as $key => $extraAttribute) { */?><!--
         <tr>
-            <td><?php echo $extraAttribute ?></td>
-            <td><select name="<?php echo $key ?>"  style="width: 130px; margin-left: 2px" >
-                    <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <td><?php /*echo $extraAttribute */?></td>
+            <td><select name="<?php /*echo $key */?>"  style="width: 130px; margin-left: 2px" >
+                    <option value="N" <?php /*if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; */?> >-- empty --</option>
                     <?php
-                    foreach($attributes as $attribute) {
+/*                    foreach($attributes as $attribute) {
                         echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
                     }
-                    ?>
+                    */?>
                 </select></td>
         </tr>
-    <?php } ?>
-    </tr>
+    --><?php /*} */?>
+
 
     <tr>
         <td>• Condition:</td>
@@ -640,65 +721,65 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
     </tr>
 
-    <tr>
+    <!--<tr>
         <td>• Deposit</td>
         <td><select name="FEED_EATTRIBUTES_DEPOSIT"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EATTRIBUTES_DEPOSIT') == 'N') echo "selected"; ?> >-- empty --</option>
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_EATTRIBUTES_DEPOSIT') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($attributes as $attribute) {
+/*                foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];if ($feedifyConfig->getConfig('FEED_EATTRIBUTES_DEPOSIT') == $attribute['products_options_id']) { echo " selected ";} echo'>'.$attribute['products_options_name'].'</option>';
                 }
-                ?>
+                */?>
             </select></td>
     </tr>
 
     <tr>
         <td>• HSN code field</td>
         <td><select name="FEED_EFIELD_HSN_CODE"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_HSN_CODE') == 'N') echo "selected"; ?> >-- empty --</option>
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_EFIELD_HSN_CODE') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($dbProductsColumns as $key=>$column) {
+/*                foreach($dbProductsColumns as $key=>$column) {
                     echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_EFIELD_HSN_CODE') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
-                ?>
+                */?>
             </select></td>
     </tr>
 
     <tr>
         <td>• TSN code field</td>
         <td><select name="FEED_EFIELD_TSN_CODE"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_TSN_CODE') == 'N') echo "selected"; ?> >-- empty --</option>
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_EFIELD_TSN_CODE') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($dbProductsColumns as $key=>$column) {
+/*                foreach($dbProductsColumns as $key=>$column) {
                     echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_EFIELD_TSN_CODE') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
-                ?>
+                */?>
             </select></td>
     </tr>
 
     <tr>
         <td>• Auto Manufacturer</td>
         <td><select name="FEED_EFIELD_AUTO_MANUFACTURER"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_AUTO_MANUFACTURER') == 'N') echo "selected"; ?> >-- empty --</option>
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_EFIELD_AUTO_MANUFACTURER') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($dbProductsColumns as $key=>$column) {
+/*                foreach($dbProductsColumns as $key=>$column) {
                     echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_EFIELD_AUTO_MANUFACTURER') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
-                ?>
+                */?>
             </select></td>
     </tr>
 
     <tr>
         <td>• TECDOC field</td>
         <td><select name="FEED_EFIELD_TECDOC"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_TECDOC') == 'N') echo "selected"; ?> >-- empty --</option>
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_EFIELD_TECDOC') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($dbProductsColumns as $key=>$column) {
+/*                foreach($dbProductsColumns as $key=>$column) {
                     echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_EFIELD_TECDOC') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
-                ?>
+                */?>
             </select></td>
-    </tr>
+    </tr>-->
 
     <tr>
         <td><h1 style="color:#3f608b">- Tracking Pixel:</h1></td>
