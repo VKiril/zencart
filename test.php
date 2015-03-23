@@ -30,4 +30,14 @@ function allCombinations($arrays)
     }
     return $result;
 }
-var_dump(allCombinations($arr));
+//var_dump(allCombinations($arr));
+
+
+$math = '5*100/4';
+$result = eval( "return ${math};" );
+printf("%s = %s\n", $math, $result);
+
+$expression = '10 - 1';
+eval( '$result = (' . $expression . ');' );
+echo '<br/>'.$result;
+var_dump(eval("\$value = \"1+3+4\";"));

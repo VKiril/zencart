@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3b607e-49f4-42b1-87fa-be7972071175" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed/config/FeedConfig.php" afterPath="$PROJECT_DIR$/feed/config/FeedConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed/plugin/zen_modules.php" afterPath="$PROJECT_DIR$/feed/plugin/zen_modules.php" />
     </list>
@@ -36,44 +36,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeedConfig.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeedConfig.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7811321" vertical-offset="26208" max-vertical-offset="29597">
-              <caret line="1626" column="39" selection-start-line="1626" selection-start-column="39" selection-end-line="1626" selection-end-column="39" />
+            <state vertical-scroll-proportion="-2.1923077" vertical-offset="27279" max-vertical-offset="31467">
+              <caret line="1678" column="0" selection-start-line="1678" selection-start-column="0" selection-end-line="1678" selection-end-column="0" />
               <folding>
-                <element signature="e#551#2838#0#PHP" expanded="false" />
-                <element signature="e#3277#3623#0#PHP" expanded="false" />
-                <marker date="1426951520649" expanded="true" signature="3833:3923" placeholder="DELETE FROM ..." />
-                <marker date="1426951520649" expanded="true" signature="4179:4327" placeholder="INSERT INTO ..." />
-                <marker date="1426951520649" expanded="true" signature="4563:4661" placeholder="SELECT confi..." />
-                <marker date="1426951520649" expanded="true" signature="4893:4930" placeholder="SELECT langu..." />
-                <marker date="1426951520649" expanded="true" signature="5179:5218" placeholder="SELECT curre..." />
-                <marker date="1426951520649" expanded="true" signature="5409:5449" placeholder="SELECT geo_z..." />
-                <marker date="1426951520649" expanded="true" signature="9458:9870" placeholder="select pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="9458:9871" placeholder="select pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="9458:9947" placeholder="select pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="9458:9948" placeholder="select pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="9458:9949" placeholder="select pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="9458:9971" placeholder="select pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="16542:16711" placeholder="SELECT DISTI..columns..." />
-                <marker date="1426951520649" expanded="true" signature="18328:19112" placeholder="SELECT pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="20008:20137" placeholder="SELECT confi..." />
-                <marker date="1426951520649" expanded="true" signature="21586:21653" placeholder="SELECT produ..." />
-                <marker date="1426951520649" expanded="true" signature="21962:22124" placeholder="SELECT DISTI..columns..." />
-                <marker date="1426951520649" expanded="true" signature="22301:22421" placeholder="SELECT confi..." />
-                <marker date="1426951520649" expanded="true" signature="23563:24017" placeholder="SELECT pa.pr..." />
-                <marker date="1426951520649" expanded="true" signature="24201:24682" placeholder="SELECT op.fi..." />
-                <marker date="1426951520649" expanded="true" signature="25456:25606" placeholder="select m.man..." />
-                <marker date="1426951520649" expanded="true" signature="25456:25632" placeholder="select m.man..." />
-                <marker date="1426951520649" expanded="true" signature="26066:26427" placeholder="select po.pr..." />
-                <marker date="1426951520649" expanded="true" signature="26583:26771" placeholder="select pov.p..." />
-                <marker date="1426951520649" expanded="true" signature="26583:26809" placeholder="select pov.p..." />
-                <marker date="1426951520649" expanded="true" signature="38288:38398" placeholder="SELECT zone_..." />
-                <marker date="1426951520649" expanded="true" signature="48013:48157" placeholder="SELECT categ..." />
-                <marker date="1426951520649" expanded="true" signature="48621:48784" placeholder="SELECT categ..." />
-                <marker date="1426951520649" expanded="true" signature="49233:49334" placeholder="SELECT paren..." />
+                <element signature="e#582#2869#0#PHP" expanded="false" />
+                <element signature="e#3308#3654#0#PHP" expanded="false" />
+                <element signature="e#52064#52585#0#PHP" expanded="false" />
+                <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+                <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+                <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+                <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+                <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+                <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+                <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+                <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+                <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+                <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+                <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+                <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+                <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+                <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+                <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+                <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+                <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+                <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+                <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+                <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+                <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+                <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+                <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+                <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+                <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+                <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+                <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+                <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+                <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+                <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+                <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+                <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+                <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9373849" vertical-offset="205" max-vertical-offset="816">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +123,8 @@
       <file leaf-file-name="zen_modules.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="1530" max-vertical-offset="6222">
-              <caret line="103" column="53" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
+            <state vertical-scroll-proportion="-17.653847" vertical-offset="1496" max-vertical-offset="6426">
+              <caret line="115" column="51" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -131,9 +153,9 @@
         <option value="$PROJECT_DIR$/feed/sdk/core/FeedDispatcher.php" />
         <option value="$PROJECT_DIR$/feed.php" />
         <option value="$PROJECT_DIR$/feed/sdk/core/Feed.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/feed/plugin/zen_modules.php" />
         <option value="$PROJECT_DIR$/feed/config/FeedConfig.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -308,12 +330,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4321608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -321,11 +345,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5544389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4958124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -353,7 +375,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="feed_view.php">
@@ -364,40 +386,280 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29682">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/sdk/core/Feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1791" max-vertical-offset="3060">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="6426">
+          <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28101">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/sdk/core/Feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1791" max-vertical-offset="3060">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="6222">
+          <caret line="103" column="50" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28101">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/sdk/core/Feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1791" max-vertical-offset="3060">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="6222">
+          <caret line="103" column="50" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25517">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#551#2838#0#PHP" expanded="false" />
-            <element signature="e#3277#3623#0#PHP" expanded="false" />
-            <marker date="1426951520649" expanded="true" signature="3833:3923" placeholder="DELETE FROM ..." />
-            <marker date="1426951520649" expanded="true" signature="4179:4327" placeholder="INSERT INTO ..." />
-            <marker date="1426951520649" expanded="true" signature="4563:4661" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="4893:4930" placeholder="SELECT langu..." />
-            <marker date="1426951520649" expanded="true" signature="5179:5218" placeholder="SELECT curre..." />
-            <marker date="1426951520649" expanded="true" signature="5409:5449" placeholder="SELECT geo_z..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9870" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9871" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9947" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9948" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9949" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9971" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="16542:16711" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="18328:19112" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="20008:20137" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="21586:21653" placeholder="SELECT produ..." />
-            <marker date="1426951520649" expanded="true" signature="21962:22124" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="22301:22421" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="23563:24017" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="24201:24682" placeholder="SELECT op.fi..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25606" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25632" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="26066:26427" placeholder="select po.pr..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26771" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26809" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="38288:38398" placeholder="SELECT zone_..." />
-            <marker date="1426951520649" expanded="true" signature="48013:48157" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="48621:48784" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="49233:49334" placeholder="SELECT paren..." />
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -431,37 +693,49 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25313">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#551#2838#0#PHP" expanded="false" />
-            <element signature="e#3277#3623#0#PHP" expanded="false" />
-            <marker date="1426951520649" expanded="true" signature="3833:3923" placeholder="DELETE FROM ..." />
-            <marker date="1426951520649" expanded="true" signature="4179:4327" placeholder="INSERT INTO ..." />
-            <marker date="1426951520649" expanded="true" signature="4563:4661" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="4893:4930" placeholder="SELECT langu..." />
-            <marker date="1426951520649" expanded="true" signature="5179:5218" placeholder="SELECT curre..." />
-            <marker date="1426951520649" expanded="true" signature="5409:5449" placeholder="SELECT geo_z..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9870" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9871" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9947" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9948" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9949" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9971" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="16542:16711" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="18328:19112" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="20008:20137" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="21586:21653" placeholder="SELECT produ..." />
-            <marker date="1426951520649" expanded="true" signature="21962:22124" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="22301:22421" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="23563:24017" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="24201:24682" placeholder="SELECT op.fi..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25606" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25632" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="26066:26427" placeholder="select po.pr..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26771" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26809" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="38288:38398" placeholder="SELECT zone_..." />
-            <marker date="1426951520649" expanded="true" signature="48013:48157" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="48621:48784" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="49233:49334" placeholder="SELECT paren..." />
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -495,37 +769,49 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12699">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#551#2838#0#PHP" expanded="false" />
-            <element signature="e#3277#3623#0#PHP" expanded="false" />
-            <marker date="1426951520649" expanded="true" signature="3833:3923" placeholder="DELETE FROM ..." />
-            <marker date="1426951520649" expanded="true" signature="4179:4327" placeholder="INSERT INTO ..." />
-            <marker date="1426951520649" expanded="true" signature="4563:4661" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="4893:4930" placeholder="SELECT langu..." />
-            <marker date="1426951520649" expanded="true" signature="5179:5218" placeholder="SELECT curre..." />
-            <marker date="1426951520649" expanded="true" signature="5409:5449" placeholder="SELECT geo_z..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9870" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9871" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9947" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9948" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9949" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9971" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="16542:16711" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="18328:19112" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="20008:20137" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="21586:21653" placeholder="SELECT produ..." />
-            <marker date="1426951520649" expanded="true" signature="21962:22124" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="22301:22421" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="23563:24017" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="24201:24682" placeholder="SELECT op.fi..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25606" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25632" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="26066:26427" placeholder="select po.pr..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26771" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26809" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="38288:38398" placeholder="SELECT zone_..." />
-            <marker date="1426951520649" expanded="true" signature="48013:48157" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="48621:48784" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="49233:49334" placeholder="SELECT paren..." />
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -543,37 +829,49 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2148" max-vertical-offset="4097">
           <caret line="635" column="17" selection-start-line="635" selection-start-column="17" selection-end-line="635" selection-end-column="17" />
           <folding>
-            <element signature="e#551#2838#0#PHP" expanded="false" />
-            <element signature="e#3277#3623#0#PHP" expanded="false" />
-            <marker date="1426951520649" expanded="true" signature="3833:3923" placeholder="DELETE FROM ..." />
-            <marker date="1426951520649" expanded="true" signature="4179:4327" placeholder="INSERT INTO ..." />
-            <marker date="1426951520649" expanded="true" signature="4563:4661" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="4893:4930" placeholder="SELECT langu..." />
-            <marker date="1426951520649" expanded="true" signature="5179:5218" placeholder="SELECT curre..." />
-            <marker date="1426951520649" expanded="true" signature="5409:5449" placeholder="SELECT geo_z..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9870" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9871" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9947" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9948" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9949" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9971" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="16542:16711" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="18328:19112" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="20008:20137" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="21586:21653" placeholder="SELECT produ..." />
-            <marker date="1426951520649" expanded="true" signature="21962:22124" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="22301:22421" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="23563:24017" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="24201:24682" placeholder="SELECT op.fi..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25606" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25632" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="26066:26427" placeholder="select po.pr..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26771" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26809" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="38288:38398" placeholder="SELECT zone_..." />
-            <marker date="1426951520649" expanded="true" signature="48013:48157" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="48621:48784" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="49233:49334" placeholder="SELECT paren..." />
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -744,67 +1042,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="51" max-vertical-offset="646">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44528303" vertical-offset="11409" max-vertical-offset="18173">
           <caret line="685" column="42" selection-start-line="685" selection-start-column="42" selection-end-line="685" selection-end-column="42" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9264151" vertical-offset="15404" max-vertical-offset="19414">
+          <caret line="935" column="14" selection-start-line="935" selection-start-column="14" selection-end-line="935" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="1530" max-vertical-offset="6222">
-          <caret line="103" column="53" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
+        <state vertical-scroll-proportion="-17.653847" vertical-offset="1496" max-vertical-offset="6426">
+          <caret line="115" column="51" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7811321" vertical-offset="26208" max-vertical-offset="29597">
-          <caret line="1626" column="39" selection-start-line="1626" selection-start-column="39" selection-end-line="1626" selection-end-column="39" />
+        <state vertical-scroll-proportion="-2.1923077" vertical-offset="27279" max-vertical-offset="31467">
+          <caret line="1678" column="0" selection-start-line="1678" selection-start-column="0" selection-end-line="1678" selection-end-column="0" />
           <folding>
-            <element signature="e#551#2838#0#PHP" expanded="false" />
-            <element signature="e#3277#3623#0#PHP" expanded="false" />
-            <marker date="1426951520649" expanded="true" signature="3833:3923" placeholder="DELETE FROM ..." />
-            <marker date="1426951520649" expanded="true" signature="4179:4327" placeholder="INSERT INTO ..." />
-            <marker date="1426951520649" expanded="true" signature="4563:4661" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="4893:4930" placeholder="SELECT langu..." />
-            <marker date="1426951520649" expanded="true" signature="5179:5218" placeholder="SELECT curre..." />
-            <marker date="1426951520649" expanded="true" signature="5409:5449" placeholder="SELECT geo_z..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9870" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9871" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9947" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9948" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9949" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="9458:9971" placeholder="select pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="16542:16711" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="18328:19112" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="20008:20137" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="21586:21653" placeholder="SELECT produ..." />
-            <marker date="1426951520649" expanded="true" signature="21962:22124" placeholder="SELECT DISTI..columns..." />
-            <marker date="1426951520649" expanded="true" signature="22301:22421" placeholder="SELECT confi..." />
-            <marker date="1426951520649" expanded="true" signature="23563:24017" placeholder="SELECT pa.pr..." />
-            <marker date="1426951520649" expanded="true" signature="24201:24682" placeholder="SELECT op.fi..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25606" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="25456:25632" placeholder="select m.man..." />
-            <marker date="1426951520649" expanded="true" signature="26066:26427" placeholder="select po.pr..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26771" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="26583:26809" placeholder="select pov.p..." />
-            <marker date="1426951520649" expanded="true" signature="38288:38398" placeholder="SELECT zone_..." />
-            <marker date="1426951520649" expanded="true" signature="48013:48157" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="48621:48784" placeholder="SELECT categ..." />
-            <marker date="1426951520649" expanded="true" signature="49233:49334" placeholder="SELECT paren..." />
+            <element signature="e#582#2869#0#PHP" expanded="false" />
+            <element signature="e#3308#3654#0#PHP" expanded="false" />
+            <element signature="e#52064#52585#0#PHP" expanded="false" />
+            <marker date="1427101980056" expanded="true" signature="3864:3954" placeholder="DELETE FROM ..." />
+            <marker date="1427101980056" expanded="true" signature="4210:4358" placeholder="INSERT INTO ..." />
+            <marker date="1427101980056" expanded="true" signature="4594:4692" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="4924:4961" placeholder="SELECT langu..." />
+            <marker date="1427101980056" expanded="true" signature="5210:5249" placeholder="SELECT curre..." />
+            <marker date="1427101980056" expanded="true" signature="5440:5480" placeholder="SELECT geo_z..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10146" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10147" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10223" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10224" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10225" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="9550:10247" placeholder="select pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="16820:16989" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="18606:19390" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="20286:20415" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="21864:21931" placeholder="SELECT produ..." />
+            <marker date="1427101980056" expanded="true" signature="22240:22402" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427101980056" expanded="true" signature="22579:22699" placeholder="SELECT confi..." />
+            <marker date="1427101980056" expanded="true" signature="23841:24295" placeholder="SELECT pa.pr..." />
+            <marker date="1427101980056" expanded="true" signature="24479:24960" placeholder="SELECT op.fi..." />
+            <marker date="1427101980056" expanded="true" signature="25768:25972" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26026" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="25768:26099" placeholder="select c.cat..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26550" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26551" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26426:26572" placeholder="select t.tax..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26911" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="26761:26937" placeholder="select m.man..." />
+            <marker date="1427101980056" expanded="true" signature="27373:27734" placeholder="select po.pr..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28244" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="28056:28282" placeholder="select pov.p..." />
+            <marker date="1427101980056" expanded="true" signature="39762:39872" placeholder="SELECT zone_..." />
+            <marker date="1427101980056" expanded="true" signature="49487:49631" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50095:50258" placeholder="SELECT categ..." />
+            <marker date="1427101980056" expanded="true" signature="50707:50808" placeholder="SELECT paren..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58149" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58229" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58239" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58240" placeholder="select ptc.c..." />
+            <marker date="1427101980056" expanded="true" signature="58058:58252" placeholder="select ptc.c..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9373849" vertical-offset="205" max-vertical-offset="816">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

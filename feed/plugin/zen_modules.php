@@ -58,10 +58,21 @@ class FeedConnector implements FeedPlugin {
      */
     public function getShopConfig()
     {
+        $currency = null;
+        $temp1 = array();
+        $temp2 = array();
         $oReturn = new stdClass();
-		$oReturn->availability = $this->config->getShopAvailabilityConfig();
+		$availability = $this->config->getShopAvailabilityConfig();
+        foreach ($availability->values as $item) {
+            $temp2[$item->key] = $item->title ;
+        }
+        $oReturn->availability = $temp2 ;
         $oReturn->langid = $this->config->getShopLanguageConfig();
-        $oReturn->currency = $this->config->getShopCurrencyConfig();
+        $currency = $this->config->getShopCurrencyConfig();
+        foreach ($currency->values as $key=>$value) {
+            $temp1[$value->key] = $value->title;
+        }
+        $oReturn->currency = $temp1;
 
         return $oReturn;
     }
@@ -91,6 +102,7 @@ class FeedConnector implements FeedPlugin {
         header("Content-type: text/csv; charset=UTF-8");
         mb_internal_encoding("UTF-8");
         header('Content-Disposition: attachment; filename=feed.csv');*/
+        $shopConfig = $this->getShopConfig();
         $csv_file = fopen("php://output", 'w+');
         if(!$csv_file) { echo 'File Error'; exit(); }
         fputcsv($csv_file, array_keys($fieldMap), ';', '"');
@@ -101,7 +113,7 @@ class FeedConnector implements FeedPlugin {
 
             $attributes = $this->config->getProductsAttr();
             foreach ($products as $product) {
-                $this->config->uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap);
+                $this->config->uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap, $shopConfig,$queryParameters);
             }
 
             //var_dump($attributes);die;

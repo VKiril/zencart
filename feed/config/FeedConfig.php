@@ -1,8 +1,9 @@
 <?php
 
 
-class FeedConfig{
+class FeedConfig {
 
+    public $productsCategory;
 	public $productsIds;
 	public $productsId;
     public $manufactures ;
@@ -280,7 +281,8 @@ class FeedConfig{
                     pd.products_name as products_name,
                     pd.language_id as language_id,
                     pd.products_description as products_description,
-                    pd.products_url as products_url
+                    pd.products_url as products_url,
+                    p.products_tax_class_id as tax_class_id
 
         ';
         $from = ' FROM
@@ -310,7 +312,9 @@ class FeedConfig{
                         pa.options_id as options_id,
                         pa.options_values_id as options_values_id,
                         pa.options_values_price as options_values_price,
-                        pa.price_prefix as price_prefix
+                        pa.price_prefix as price_prefix,
+                        pa.products_attributes_weight as products_attributes_weight,
+                        pa.products_attributes_weight_prefix as products_attributes_weight_prefix
                     from '.TABLE_PRODUCTS_ATTRIBUTES.' pa
                     where pa.products_id in ('.$this->productsId.')
 
@@ -364,7 +368,7 @@ class FeedConfig{
                 }
             }
             $temp[$key]['options_list'] = $buff ;
-            unset($temp[$key]['options_id']);
+            //unset($temp[$key]['options_id']);
         }
 
         return $temp;
@@ -816,7 +820,37 @@ class FeedConfig{
 		$this->_iniExtraAttributesParameters();
         $this->setProductsOptions();
         $this->setManufactures();
+        $this->setCategories();
 	}
+
+    public function setCategories(){
+        $query = '
+                    select
+                        c.categories_id as categories_id ,
+                        c.parent_id as parent_id ,
+                        cd.categories_name as categories_name
+
+                    from '.TABLE_CATEGORIES.' c
+                    inner join '.TABLE_CATEGORIES_DESCRIPTION.' cd  on cd.categories_id=c.categories_id
+        ';
+        $db = $GLOBALS['db'];
+        $temp = $this->dataFetch($db->Execute($query));
+        $result = array();
+        foreach ($temp as $item) {
+            $result[$item['categories_id']] = $item ;
+        }
+        $this->productsCategory = $result ;
+    }
+
+    public function setTaxRate(){
+        $query = 'select
+                    t.tax_class_id as tax_class_id,
+                    t.tax_rate as tax_rate
+                  from '.TABLE_TAX_RATES.' t
+        ';
+        $db = $GLOBALS['db'];
+        $this->tax_rate = $this->dataFetch($db->Execute($query));
+    }
 
     public function setManufactures(){
         $query = '
@@ -835,7 +869,9 @@ class FeedConfig{
     }
 
     public function setProductsOptions(){
+
         $db = $GLOBALS['db'];
+
         $select_options = '
                     select
                         po.products_options_id as products_options_id,
@@ -846,7 +882,12 @@ class FeedConfig{
                     from '.TABLE_PRODUCTS_OPTIONS.' po
         ';
 
-        $this->product_options  = $this->dataFetch($db->Execute($select_options));
+        $result1 = $this->dataFetch($db->Execute($select_options));
+        $temp = array();
+        foreach ($result1 as $key=>$value) {
+            $temp[$value['products_options_id']] = $value ;
+        }
+        $this->product_options  = $temp;
 
         $select_options_attributes = '
                     select
@@ -854,6 +895,7 @@ class FeedConfig{
                         pov.products_options_values_name as options_values_name
                     from '.TABLE_PRODUCTS_OPTIONS_VALUES.' pov
         ';
+
         $this->product_option_values  = $this->dataFetch($db->Execute($select_options_attributes));
 
     }
@@ -1607,7 +1649,7 @@ class FeedConfig{
         return $result;
     }
 
-    public function uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap){
+    public function uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap, $shopConfig,$queryParameters){
         $allCombinations = $this->allCombinations($attributes[$product['products_id']]['options_list']);
         $row = array();
        /* foreach($fieldMap as $key => $value) {
@@ -1624,20 +1666,20 @@ class FeedConfig{
 
         if(array_key_exists($product['products_id'],$attributes) ){
             foreach ($allCombinations as $combinations) {
-                foreach($fieldMap as $key => $value) {
-                    $row[$key] = $this->getRowElements($value, $attributes, $product, $combinations);
+                foreach($fieldMap as $key => $field) {
+                    $row[$key] = $this->getRowElements($field, $attributes, $product, $combinations, $shopConfig,$queryParameters);
                 }
+
+                var_dump($row);die;
             }
         }
 
-
-        var_dump($row);die;
     }
-    public function getRowElements($field, $attributes, $product, $combinations = null ){
-        //var_dump($product);die;
+    public function getRowElements($field, $attributes, $product, $combinations = null , $shopConfig, $queryParameters ){
+
         switch($field){
             case 'ModelOwn'              : {
-                return $product['products_id'];
+                return $this->getModelOwn($attributes,$product,$combinations);
             }//
             case 'Name'                  : {
                 return $product['products_name'];
@@ -1661,8 +1703,8 @@ class FeedConfig{
                 return $product['products_model'];
             }//
             case 'Category'              : {
-                return 1;
-            }
+                return $this->getCategory($product);
+            }//
             case 'CategoriesGoogle'      : {
                 return 1;
             }
@@ -1676,8 +1718,8 @@ class FeedConfig{
                 return 1;
             }
             case 'Productsprice_brut'    : {
-                return 1;
-            }
+                return ((($product['products_price'])*$this->getProductTax($product)) / 100) + ($product['products_price']);
+            }//
             case 'Productspecial'        : {
                 return 1;
             }
@@ -1691,29 +1733,29 @@ class FeedConfig{
                 return 1;
             }
             case 'Productstax'           : {
-                return 1;
-
-            }
+                return $this->getProductTax($product);
+            }//
             case 'ProductsVariant'       : {
-                return 1;
-
-            }
+                return $this->getProductVariants($attributes,$product,$combinations);
+            }//
             case 'Currency'              : {
-                return 1;
-
-            }
+                return $shopConfig->currency[$queryParameters->currency];
+            }//
             case 'Quantity'              : {
                 return $product['products_quantity'];
             }//
             case 'Weight'                : {
+                if($attributes[$product['products_id']]){
+                    return $product['products_weight'];
+                }
                 return $product['products_weight'];
 
             }//
             case 'AvailabilityTxt'       : {
-                return 1;
-
+                return $shopConfig->availability[$queryParameters->availability];
             }
             case 'Condition'             : {
+                //var_dump($queryParameters, $shopConfig  );die;
                 return 1;
 
             }
@@ -1788,6 +1830,84 @@ class FeedConfig{
                 return 1;
             }
         }
+    }
+
+    public function getCategory($product){
+        $query = '
+                    select
+                        ptc.categories_id as categories_id
+
+                    from '.TABLE_PRODUCTS_TO_CATEGORIES.' ptc
+                    where ptc.products_id='.$product["products_id"] ;
+
+        $db = $GLOBALS['db'];
+        $temp = $this->dataFetch($db->Execute($query));
+        $buff = array();
+        $categories = array();
+        foreach ($temp as $item) {
+            $buff[$item['categories_id']] = $item;
+            $categories[] = $this->productsCategory[$item['categories_id']];
+        }
+
+        return $this->getCategoriesParent($categories, null);
+    }
+
+    public function getCategoriesParent($categories,$result = null){
+        $temp = array();
+        $response = 1;
+        foreach ($categories as $item) {
+            if(!is_array($item)){
+                $temp[0] =  $categories ;
+                $categories = $temp ;
+                break;
+            }
+        }
+        foreach ($categories as $category) {
+            if( $result == null ){
+                if($category['parent_id'] == 0){
+                    $response = $category['categories_name'];
+                } else {
+                    $response = $this->getCategoriesParent($this->productsCategory[$category['parent_id']], $category['categories_name']);
+                }
+            } else {
+                if($category['parent_id'] == 0){
+                    $response = $category['categories_name'].'|'.$result;
+                } else {
+                    $response = $this->getCategoriesParent($this->productsCategory[$category['parent_id']], $category['categories_name'].'|'.$result);
+                }
+            }
+        }
+
+        return $response ;
+    }
+
+    public function getProductTax($product){
+        $a = zen_get_tax_rate($product['tax_class_id'], $this->taxZone['zone_country_id'], $this->taxZone['zone_id']);
+        if(!$a){
+            //return 1 ; //return value from plogin from
+        }
+        return $a;
+    }
+
+    public function getProductVariants($attributes,$product,$combinations){
+        //var_dump($this->product_options);die;
+        $temp = array();
+        foreach ($combinations as $combination) {
+           //var_dump($attributes[$product['products_id']]['options_id'][2]);die;
+            $temp[] = $this->product_options[$attributes[$product['products_id']]['options_id'][$combination]]['products_options_name'];
+
+        }
+        return  implode('|',$temp);
+    }
+
+    public function getModelOwn($attributes,$product,$combinations){
+        $temp = $product['products_id'];
+        $buff = array();
+        foreach ($combinations as $combination) {
+            $buff[] = $attributes[$temp]['options_id'][$combination].'-'.$attributes[$temp]['options_values_id'][$combination];
+        }
+
+        return $temp.'_'.implode('_',$buff);
     }
 
 
