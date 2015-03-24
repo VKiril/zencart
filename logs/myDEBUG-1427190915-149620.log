@@ -1,0 +1,3 @@
+[24-Mar-2015 10:55:16 Europe/Paris] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 1712
+[24-Mar-2015 10:55:16 Europe/Paris] PHP Stack trace:
+[24-Mar-2015 10:55:16 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0

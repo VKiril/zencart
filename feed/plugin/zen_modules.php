@@ -98,52 +98,43 @@ class FeedConnector implements FeedPlugin {
             $_SESSION['cart']->reset();
         }
 
-        /*header('Content-Encoding: UTF-8');
+        header('Content-Encoding: UTF-8');
         header("Content-type: text/csv; charset=UTF-8");
-        mb_internal_encoding("UTF-8");
-        header('Content-Disposition: attachment; filename=feed.csv');*/
-        $shopConfig = $this->getShopConfig();
+        header('Content-Disposition: attachment; filename=feed.csv');
+        //mb_internal_encoding("UTF-8");
+
+
         $csv_file = fopen("php://output", 'w+');
-        if(!$csv_file) { echo 'File Error'; exit(); }
+        if(!$csv_file) {
+            echo 'File Error';
+            exit();
+        }
+
         fputcsv($csv_file, array_keys($fieldMap), ';', '"');
+        $shopConfig = $this->getShopConfig();
 
         do{
             //$temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
-            $products = $this->config->getProducts($limit, $offset);
-
+            $products   = $this->config->getProducts($limit, $offset);
             $attributes = $this->config->getProductsAttr();
+            $count = 0;
+
             foreach ($products as $product) {
                 $this->config->uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap, $shopConfig,$queryParameters);
-            }
-
-            //var_dump($attributes);die;
-			$this->config->getProductsAttributes(array(), $this->config->productsIds);
-			//$attributes = $this->config->productAttributes;
-			unset($this->config->productsIds);
-
-            $count = 0;
-            foreach($temp_result as $key=>$result) {
-
-                $this->config->allComboFeed($result, $attributes, $fieldMap, $queryParameters, $csv_file);
-
-                unset($temp_result[$key]);
-                unset($this->config->productsWithAttributes);
-				flush();
+               // flush();
                 ++$count;
             }
             $offset += $limit;
-			//break;
+
         } while ($count == $limit);
 
-        //restore session's cart contents
+        fclose($csv_file);
         if( $tempContents ) {
             $_SESSION['cart']->contents = $tempContents;
         }
 
         //print_r($this->config->query);
         //echo microtime(true) - $time;
-
-        fclose($csv_file);
     }
 
     /**

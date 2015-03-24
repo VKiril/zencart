@@ -668,7 +668,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
     </tr>
     <tr>
         <td>• Delivery comment:</td>
-        <td><textarea name="FEED_SHIPPING_COMMENT_1" style="margin-left: 2px;"><?php echo $feedifyConfig->getConfig('FEED_SHIPPING_COMMENT_1');?></textarea><br/></td>
+        <td><textarea name="FEED_SHIPPING_COMMENT" style="margin-left: 2px;"><?php echo $feedifyConfig->getConfig('FEED_SHIPPING_COMMENT');?></textarea><br/></td>
     </tr>
 
     <tr><td><br></td></tr>
@@ -704,21 +704,22 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
 
     <tr>
         <td>• Condition:</td>
-        <td><select name="FEED_EFIELD_CONDITON_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_CONDITON_1') == 'N') echo "selected"; ?> >-- empty --</option>
-                <option value="0" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_CONDITON_1') == '0') echo "selected"; ?> >new</option>
-                <option value="1" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_CONDITON_1') == '1') echo "selected"; ?> >used</option>
+        <td><select name="FEED_FIELD_CONDITON_1"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_CONDITON_1') == 'N') echo "selected"; ?> >-- empty --</option>
+                <option value="1" <?php if ($feedifyConfig->getConfig('FEED_FIELD_CONDITON_1') == '1') echo "selected"; ?> >new</option>
+                <option value="2" <?php if ($feedifyConfig->getConfig('FEED_FIELD_CONDITON_1') == '2') echo "selected"; ?> >used</option>
+                <option value="3" <?php if ($feedifyConfig->getConfig('FEED_FIELD_CONDITON_1') == '3') echo "selected"; ?> >used</option>
             </select></td>
-        <td>or
-            <select name="FEED_EFIELD_CONDITON_2" style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_EFIELD_CONDITON_2') == 'N') echo "selected"; ?> >-- empty --</option>
+        <!--<td>or
+            <select name="FEED_FIELD_CONDITON_2" style="width: 130px; margin-left: 2px">
+                <option value="N" <?php /*if ($feedifyConfig->getConfig('FEED_FIELD_CONDITON_2') == 'N') echo "selected"; */?> >-- empty --</option>
                 <?php
-                foreach($dbProductsColumns as $key=>$column) {
-                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_EFIELD_CONDITON_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
+/*                foreach($dbProductsColumns as $key=>$column) {
+                    echo '<option value='.$column['table_name'].';'.$column['column_name']; if ($feedifyConfig->getConfig('FEED_FIELD_CONDITON_2') == $column['table_name'].';'.$column['column_name']) { echo " selected ";} echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
                 }
-                ?>
+                */?>
             </select>
-        </td>
+        </td>-->
     </tr>
 
     <!--<tr>
