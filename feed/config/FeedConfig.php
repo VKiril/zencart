@@ -1674,7 +1674,6 @@ class FeedConfig {
             foreach ($item as $key2=>$element) {
                 $temp[$key1][$arrayKeys[$key2]] = $element ;
             }
-
         }
 
         return $temp;
@@ -1684,38 +1683,24 @@ class FeedConfig {
         $allCombinations = $this->allCombinations($attributes[$product['products_id']]['options_list']);
         $row = array();
 
-        /* foreach($fieldMap as $key => $value) {
-            foreach ($attributes as $key1=>$value1) {
-                if(array_key_exists($product['products_id'],$attributes) ){
-                    foreach ($allCombinations as $combinations) {
-                        $row[$key] = $this->getRowElements($value, $attributes, $product, $combinations);
-                    }
-                } else {
-                    $row[$key] = $this->getRowElements($value, $attributes, $product);
-                }
-            }
-        }*/
-        //var_dump($attributes);die;
         if(array_key_exists($product['products_id'],$attributes) ){
-
             foreach ($allCombinations as $combinations) {
                 foreach($fieldMap as $key => $field) {
                     $row[$key] = $this->getRowElements($field, $attributes, $product, $combinations, $shopConfig,$queryParameters);
-                }
-                //var_dump($row);
 
+                }
                 fputcsv($csv_file, $row , ';', '"');
             }
         } else {
             foreach($fieldMap as $key => $field) {
                 $row[$key] = $this->getRowElements($field, null, $product, null, $shopConfig, $queryParameters);
             }
-            //var_dump($row);
-
             fputcsv($csv_file, $row, ';', '"');
         }
-
     }
+
+
+
     public function getRowElements($field, $attributes=null, $product, $combinations = null , $shopConfig, $queryParameters ){
         //var_dump($this->feedData);die;
         switch($field){
@@ -1768,9 +1753,11 @@ class FeedConfig {
                     foreach ($combinations as $combination) {
                         $a = $attributes[$product['products_id']]['options_values_price'][$combination];
                         $b = $attributes[$product['products_id']]['price_prefix'][$combination];
-                        $expression = $b.$a;
+                        $c = $product['products_price'];
+                        $expression = $b.$a.$c;
                         eval( '$result += (' . $expression . ');' );
-                        return ((($product['products_price']+$result)*$this->getProductTax($product)) / 100) + ($product['products_price']+$result);
+
+                        return ((($result)*$this->getProductTax($product)) / 100) + (+$result);
                     }
                 }
                 return ((($product['products_price'])*$this->getProductTax($product)) / 100) + ($product['products_price']);
@@ -1787,9 +1774,10 @@ class FeedConfig {
                     foreach ($combinations as $combination) {
                         $a = $attributes[$product['products_id']]['options_values_price'][$combination];
                         $b = $attributes[$product['products_id']]['price_prefix'][$combination];
-                        $expression = $b.$a;
+                        $c = $product['products_price'];
+                        $expression = $b.$a.$c;
                         eval( '$result += (' . $expression . ');' );
-                        return $result + $product['products_price'] ;
+                        return $result ;
                     }
                 }
                 return $product['products_price'];
@@ -1814,9 +1802,10 @@ class FeedConfig {
                     foreach ($combinations as $combination) {
                         $a = $attributes[$product['products_id']]['attributes_weight'][$combination];
                         $b = $attributes[$product['products_id']]['attributes_weight_prefix'][$combination];
-                        $expression = $b.$a;
+                        $c = $product['products_weight'];
+                        $expression = $b.$a.$c;
                         eval( '$result += (' . $expression . ');' );
-                        return $result + $product['products_weight'] ;
+                        return $result  ;
                     }
                 }
                 return $product['products_weight'];
@@ -2017,6 +2006,9 @@ class FeedConfig {
 
         $db = $GLOBALS['db'];
         $temp = $this->dataFetch($db->Execute($query));
+        if(!$temp){
+            var_dump($product);die;
+        }
         $buff = array();
         $categories = array();
         foreach ($temp as $item) {

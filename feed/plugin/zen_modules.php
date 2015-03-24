@@ -114,7 +114,7 @@ class FeedConnector implements FeedPlugin {
         $shopConfig = $this->getShopConfig();
 
         do{
-            //$temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
+            $temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
             $products   = $this->config->getProducts($limit, $offset);
             $attributes = $this->config->getProductsAttr();
             $count = 0;

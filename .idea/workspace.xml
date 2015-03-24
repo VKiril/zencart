@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e3b607e-49f4-42b1-87fa-be7972071175" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed/config/FeedConfig.php" afterPath="$PROJECT_DIR$/feed/config/FeedConfig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin21/feed_view.php" afterPath="$PROJECT_DIR$/admin21/feed_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed/plugin/zen_modules.php" afterPath="$PROJECT_DIR$/feed/plugin/zen_modules.php" />
     </list>
     <ignored path="zencart.iws" />
@@ -36,62 +34,130 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeedConfig.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeedConfig.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.615385" vertical-offset="27551" max-vertical-offset="34425">
-              <caret line="1713" column="0" selection-start-line="1713" selection-start-column="0" selection-end-line="1713" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8773585" vertical-offset="3241" max-vertical-offset="9622">
+              <caret line="1698" column="9" selection-start-line="1698" selection-start-column="9" selection-end-line="1698" selection-end-column="9" />
               <folding>
                 <element signature="e#604#2891#0#PHP" expanded="false" />
                 <element signature="e#3330#3676#0#PHP" expanded="false" />
-                <element signature="e#53181#53702#0#PHP" expanded="false" />
-                <element signature="e#67272#67501#0#PHP" expanded="false" />
-                <element signature="e#67321#67460#0#PHP" expanded="false" />
-                <element signature="e#67514#67563#0#PHP" expanded="false" />
-                <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-                <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-                <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-                <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-                <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-                <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-                <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-                <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-                <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-                <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-                <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-                <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-                <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-                <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-                <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-                <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-                <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-                <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-                <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-                <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-                <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-                <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-                <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-                <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-                <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-                <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-                <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-                <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-                <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-                <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-                <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-                <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-                <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-                <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-                <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-                <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-                <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+                <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#5063#5089#0#PHP" expanded="false" />
+                <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#5352#5378#0#PHP" expanded="false" />
+                <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#12057#12182#0#PHP" expanded="false" />
+                <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#29319#29502#0#PHP" expanded="false" />
+                <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#30223#30269#0#PHP" expanded="false" />
+                <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#33922#33993#0#PHP" expanded="false" />
+                <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#34709#34804#0#PHP" expanded="false" />
+                <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#47286#47393#0#PHP" expanded="false" />
+                <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="e#66711#66940#0#PHP" expanded="false" />
+                <element signature="e#66760#66899#0#PHP" expanded="false" />
+                <element signature="e#66953#67002#0#PHP" expanded="false" />
+                <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+                <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+                <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+                <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+                <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+                <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+                <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+                <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+                <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+                <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+                <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+                <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+                <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+                <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+                <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+                <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+                <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+                <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+                <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+                <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+                <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+                <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+                <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+                <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+                <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+                <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+                <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+                <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+                <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+                <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+                <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+                <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+                <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+                <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+                <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+                <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+                <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+                <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
               </folding>
             </state>
           </provider>
@@ -117,11 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zen_modules.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zen_modules.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6869245" vertical-offset="1939" max-vertical-offset="6273">
-              <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+            <state vertical-scroll-proportion="-19.576923" vertical-offset="1565" max-vertical-offset="6273">
+              <caret line="122" column="45" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -151,8 +217,8 @@
         <option value="$PROJECT_DIR$/feed/sdk/core/Feed.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/admin21/feed_view.php" />
-        <option value="$PROJECT_DIR$/feed/config/FeedConfig.php" />
         <option value="$PROJECT_DIR$/feed/plugin/zen_modules.php" />
+        <option value="$PROJECT_DIR$/feed/config/FeedConfig.php" />
       </list>
     </option>
   </component>
@@ -182,7 +248,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -193,7 +259,93 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zencart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin21" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="configurable.group.appearance" />
@@ -255,17 +407,17 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5477387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -274,27 +426,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5544389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4321608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -321,7 +452,7 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="feed_view.php">
@@ -353,54 +484,122 @@
           <folding>
             <element signature="e#604#2891#0#PHP" expanded="false" />
             <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -436,54 +635,122 @@
           <folding>
             <element signature="e#604#2891#0#PHP" expanded="false" />
             <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -519,54 +786,122 @@
           <folding>
             <element signature="e#604#2891#0#PHP" expanded="false" />
             <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -602,54 +937,122 @@
           <folding>
             <element signature="e#604#2891#0#PHP" expanded="false" />
             <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -685,54 +1088,122 @@
           <folding>
             <element signature="e#604#2891#0#PHP" expanded="false" />
             <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -752,54 +1223,122 @@
           <folding>
             <element signature="e#604#2891#0#PHP" expanded="false" />
             <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
           </folding>
         </state>
       </provider>
@@ -1008,70 +1547,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
+    <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.615385" vertical-offset="27551" max-vertical-offset="34425">
-          <caret line="1713" column="0" selection-start-line="1713" selection-start-column="0" selection-end-line="1713" selection-end-column="0" />
-          <folding>
-            <element signature="e#604#2891#0#PHP" expanded="false" />
-            <element signature="e#3330#3676#0#PHP" expanded="false" />
-            <element signature="e#53181#53702#0#PHP" expanded="false" />
-            <element signature="e#67272#67501#0#PHP" expanded="false" />
-            <element signature="e#67321#67460#0#PHP" expanded="false" />
-            <element signature="e#67514#67563#0#PHP" expanded="false" />
-            <marker date="1427193411629" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
-            <marker date="1427193411629" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
-            <marker date="1427193411629" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
-            <marker date="1427193411629" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
-            <marker date="1427193411629" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
-            <marker date="1427193411629" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
-            <marker date="1427193411629" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
-            <marker date="1427193411629" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
-            <marker date="1427193411629" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26004" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26005" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26077" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="25849:26086" placeholder="select c.con..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27595" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="27445:27621" placeholder="select m.man..." />
-            <marker date="1427193411629" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
-            <marker date="1427193411629" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
-            <marker date="1427193411629" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
-            <marker date="1427193411629" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67754" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67834" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67844" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67845" placeholder="select ptc.c..." />
-            <marker date="1427193411629" expanded="true" signature="67663:67857" placeholder="select ptc.c..." />
-          </folding>
+        <state vertical-scroll-proportion="-19.576923" vertical-offset="1565" max-vertical-offset="6273">
+          <caret line="122" column="45" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feed/plugin/zen_modules.php">
+    <entry file="file://$PROJECT_DIR$/feed/config/FeedConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6869245" vertical-offset="1939" max-vertical-offset="6273">
-          <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
-          <folding />
+        <state vertical-scroll-proportion="0.8773585" vertical-offset="3241" max-vertical-offset="9622">
+          <caret line="1698" column="9" selection-start-line="1698" selection-start-column="9" selection-end-line="1698" selection-end-column="9" />
+          <folding>
+            <element signature="e#604#2891#0#PHP" expanded="false" />
+            <element signature="e#3330#3676#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#remove#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#install#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getLanguagesArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5063#5089#0#PHP" expanded="false" />
+            <element signature="n#getCurrencyArray#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#5352#5378#0#PHP" expanded="false" />
+            <element signature="n#getTaxZones#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopLanguageConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopAvailabilityConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getShopCurrencyConfig#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getQueryFields#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttr#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#12057#12182#0#PHP" expanded="false" />
+            <element signature="n#getProductsResource#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAllAttributesCombo#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToQuery#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkTables#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#generate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductsAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyShippingParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#dataFetch#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getAttributesGroups#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getDatabaseColumns#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_iniExtraAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersAttributes#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getFeedifyFormData#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setCategories#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setTaxRate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setManufactures#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#setProductsOptions#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#29319#29502#0#PHP" expanded="false" />
+            <element signature="n#allComboFeed#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#30223#30269#0#PHP" expanded="false" />
+            <element signature="n#getFeedRow#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getOrdersProducts#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#33922#33993#0#PHP" expanded="false" />
+            <element signature="n#iniParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#34709#34804#0#PHP" expanded="false" />
+            <element signature="n#_attributesFeedOrPrint#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAttributesParameters#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getTaxZone#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryTime#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_initShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getFeedColumnValue#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCondition#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getAvailability#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_setShipping#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#47286#47393#0#PHP" expanded="false" />
+            <element signature="n#_getImage#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getLink#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_checkShippingPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getDeliveryCost#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_addToCartContent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_shippingPriceCalculate#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getSpecialPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getBrutPrice#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_buildCategory#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#_getParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#allCombinations#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="e#66711#66940#0#PHP" expanded="false" />
+            <element signature="e#66760#66899#0#PHP" expanded="false" />
+            <element signature="e#66953#67002#0#PHP" expanded="false" />
+            <element signature="n#getCategoriesParent#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductTax#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <element signature="n#getProductVariants#0;n#FeedConfig#0;n#!!top" expanded="false" />
+            <marker date="1427199717871" expanded="true" signature="3886:3976" placeholder="DELETE FROM ..." />
+            <marker date="1427199717871" expanded="true" signature="4232:4380" placeholder="INSERT INTO ..." />
+            <marker date="1427199717871" expanded="true" signature="4616:4714" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="4946:4983" placeholder="SELECT langu..." />
+            <marker date="1427199717871" expanded="true" signature="5232:5271" placeholder="SELECT curre..." />
+            <marker date="1427199717871" expanded="true" signature="5462:5502" placeholder="SELECT geo_z..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10150" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10151" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10227" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10228" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10229" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="9572:10251" placeholder="select pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="16863:17032" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="18649:19433" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="20329:20458" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="21907:21974" placeholder="SELECT produ..." />
+            <marker date="1427199717871" expanded="true" signature="22283:22445" placeholder="SELECT DISTI..columns..." />
+            <marker date="1427199717871" expanded="true" signature="22622:22742" placeholder="SELECT confi..." />
+            <marker date="1427199717871" expanded="true" signature="23884:24338" placeholder="SELECT pa.pr..." />
+            <marker date="1427199717871" expanded="true" signature="24522:25003" placeholder="SELECT op.fi..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26004" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26005" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26077" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="25849:26086" placeholder="select c.con..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26656" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26710" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="26452:26783" placeholder="select c.cat..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27234" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27235" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27110:27256" placeholder="select t.tax..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27595" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="27445:27621" placeholder="select m.man..." />
+            <marker date="1427199717871" expanded="true" signature="28057:28418" placeholder="select po.pr..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28928" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="28740:28966" placeholder="select pov.p..." />
+            <marker date="1427199717871" expanded="true" signature="40632:40742" placeholder="SELECT zone_..." />
+            <marker date="1427199717871" expanded="true" signature="50357:50501" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="50965:51128" placeholder="SELECT categ..." />
+            <marker date="1427199717871" expanded="true" signature="51577:51678" placeholder="SELECT paren..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67193" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67273" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67283" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67284" placeholder="select ptc.c..." />
+            <marker date="1427199717871" expanded="true" signature="67102:67296" placeholder="select ptc.c..." />
+          </folding>
         </state>
       </provider>
     </entry>
