@@ -67,7 +67,7 @@ class FeedConnector implements FeedPlugin {
             $temp2[$item->key] = $item->title ;
         }
         $oReturn->availability = $temp2 ;
-        $oReturn->langid = $this->config->getShopLanguageConfig();
+        $oReturn->language = $this->config->getShopLanguageConfig();
         $currency = $this->config->getShopCurrencyConfig();
         foreach ($currency->values as $key=>$value) {
             $temp1[$value->key] = $value->title;
@@ -98,9 +98,9 @@ class FeedConnector implements FeedPlugin {
             $_SESSION['cart']->reset();
         }
 
-        header('Content-Encoding: UTF-8');
+        /*header('Content-Encoding: UTF-8');
         header("Content-type: text/csv; charset=UTF-8");
-        header('Content-Disposition: attachment; filename=feed.csv');
+        header('Content-Disposition: attachment; filename=feed.csv');*/
         //mb_internal_encoding("UTF-8");
 
 
@@ -114,8 +114,8 @@ class FeedConnector implements FeedPlugin {
         $shopConfig = $this->getShopConfig();
 
         do{
-            $temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
-            $products   = $this->config->getProducts($limit, $offset);
+            //$temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
+            $products   = $this->config->getProducts($limit, $offset,$queryParameters);
             $attributes = $this->config->getProductsAttr();
             $count = 0;
 
@@ -133,8 +133,6 @@ class FeedConnector implements FeedPlugin {
             $_SESSION['cart']->contents = $tempContents;
         }
 
-        //print_r($this->config->query);
-        //echo microtime(true) - $time;
     }
 
     /**

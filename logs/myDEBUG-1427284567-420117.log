@@ -1,0 +1,20 @@
+[25-Mar-2015 12:56:08 Europe/Paris] PHP Warning:  strtotime() expects parameter 1 to be string, object given in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 1850
+[25-Mar-2015 12:56:08 Europe/Paris] PHP Stack trace:
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   6. FeedConfig->uploadCSVfileWithCombinations() K:\wamp\www\zencart\feed\plugin\zen_modules.php:123
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   7. FeedConfig->getRowElements() K:\wamp\www\zencart\feed\config\FeedConfig.php:1748
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   8. strtotime() K:\wamp\www\zencart\feed\config\FeedConfig.php:1850
+[25-Mar-2015 12:56:08 Europe/Paris] PHP Warning:  DateTime::format() expects exactly 1 parameter, 2 given in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 1850
+[25-Mar-2015 12:56:08 Europe/Paris] PHP Stack trace:
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   1. {main}() K:\wamp\www\zencart\feed.php:0
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   2. Feed->dispatch() K:\wamp\www\zencart\feed.php:16
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   3. FeedDispatcher->dispatch() K:\wamp\www\zencart\feed\sdk\core\Feed.php:74
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   4. FeedDispatcher->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:45
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   5. FeedConnector->getFeed() K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php:92
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   6. FeedConfig->uploadCSVfileWithCombinations() K:\wamp\www\zencart\feed\plugin\zen_modules.php:123
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   7. FeedConfig->getRowElements() K:\wamp\www\zencart\feed\config\FeedConfig.php:1748
+[25-Mar-2015 12:56:08 Europe/Paris] PHP   8. DateTime->format() K:\wamp\www\zencart\feed\config\FeedConfig.php:1850

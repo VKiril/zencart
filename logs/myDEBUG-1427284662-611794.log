@@ -1,0 +1,11 @@
+[25-Mar-2015 12:57:44 Europe/Paris] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (Y:m:d) at position 1 (:): Unexpected character' in K:\wamp\www\zencart\feed\config\FeedConfig.php:1849
+Stack trace:
+#0 K:\wamp\www\zencart\feed\config\FeedConfig.php(1849): DateTime->__construct('Y:m:d')
+#1 K:\wamp\www\zencart\feed\config\FeedConfig.php(1748): FeedConfig->getRowElements('Productspecial', Array, Array, Array, Object(stdClass), Object(stdClass))
+#2 K:\wamp\www\zencart\feed\plugin\zen_modules.php(123): FeedConfig->uploadCSVfileWithCombinations(Resource id #195, Array, Array, Array, Object(stdClass), Object(stdClass))
+#3 K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php(92): FeedConnector->getFeed(Object(stdClass), Array)
+#4 K:\wamp\www\zencart\feed\sdk\core\FeedDispatcher.php(45): FeedDispatcher->getFeed(NULL)
+#5 K:\wamp\www\zencart\feed\sdk\core\Feed.php(74): FeedDispatcher->dispatch(Array)
+#6 K:\wamp\www\zencart\feed.php(16): Feed->dispatch(Array)
+#7 {main}
+  thrown in K:\wamp\www\zencart\feed\config\FeedConfig.php on line 1849
