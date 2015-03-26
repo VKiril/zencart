@@ -314,12 +314,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
                 </select>
             </td>
             <td> or
-                <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                    <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+                <select name="<?php echo $key.'_2';?>"  style="width: 130px; margin-left: 2px" >
+                    <option value="N" <?php if ($feedifyConfig->getConfig($key.'_2') == 'N') echo "selected"; ?> >-- empty --</option>
                     <?php
                     foreach($attributes as $attribute) {
                         echo '<option value='.$attribute['products_options_id'];
-                        if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                        if ($feedifyConfig->getConfig($key.'_2') == $attribute['products_options_id']) {
                             echo " selected ";
                         }
                         echo'>'.$attribute['products_options_name'].'</option>';
@@ -351,12 +351,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
             </td>
             <td >
                 or
-                <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                    <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+                <select name="FEED_FIELD_EAN_2"  style="width: 130px; margin-left: 2px" >
+                    <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_EAN_2') == 'N') echo "selected"; ?> >-- empty --</option>
                     <?php
                     foreach($attributes as $attribute) {
                         echo '<option value='.$attribute['products_options_id'];
-                        if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                        if ($feedifyConfig->getConfig('FEED_FIELD_EAN_2') == $attribute['products_options_id']) {
                             echo " selected ";
                         }
                         echo'>'.$attribute['products_options_name'].'</option>';
@@ -366,7 +366,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
             </td>
             <td>
                 or
-                <input type="text" name="FEED_FIELD_EAN_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_EAN_2');?>"/>
+                <input type="text" name="FEED_FIELD_EAN_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_EAN_3');?>"/>
             </td>
         </tr>
         <tr>
@@ -387,12 +387,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
             </td>
             <td >
                 or
-                <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                    <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+                <select name="FEED_FIELD_GOOGLE_2"  style="width: 130px; margin-left: 2px" >
+                    <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_GOOGLE_2') == 'N') echo "selected"; ?> >-- empty --</option>
                     <?php
                     foreach($attributes as $attribute) {
                         echo '<option value='.$attribute['products_options_id'];
-                        if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                        if ($feedifyConfig->getConfig('FEED_FIELD_GOOGLE_2') == $attribute['products_options_id']) {
                             echo " selected ";
                         }
                         echo'>'.$attribute['products_options_name'].'</option>';
@@ -402,7 +402,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
             </td>
             <td>
                 or
-                <input type="text" name="FEED_FIELD_GOOGLE_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_GOOGLE_2');?>"/>
+                <input type="text" name="FEED_FIELD_GOOGLE_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_GOOGLE_3');?>"/>
             </td>
         </tr>
 
@@ -425,12 +425,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_SUBTITLE_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_SUBTITLE_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_SUBTITLE_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -440,7 +440,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td>
             or
-            <input type="text" name="FEED_FIELD_SUBTITLE_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_SUBTITLE_2');?>"/>
+            <input type="text" name="FEED_FIELD_SUBTITLE_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_SUBTITLE_3');?>"/>
         </td>
     </tr>
 
@@ -462,12 +462,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_ISBN_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_ISBN_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_ISBN_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -477,7 +477,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td>
             or
-            <input type="text" name="FEED_FIELD_ISBN_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_ISBN_2');?>"/>
+            <input type="text" name="FEED_FIELD_ISBN_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_ISBN_3');?>"/>
         </td>
     </tr>
 
@@ -499,12 +499,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_BASE_UNIT_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_BASE_UNIT_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_BASE_UNIT_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -514,7 +514,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td>
             or
-            <input type="text" name="FEED_FIELD_BASE_UNIT_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_BASE_UNIT_2');?>"/>
+            <input type="text" name="FEED_FIELD_BASE_UNIT_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_BASE_UNIT_3');?>"/>
         </td>
     </tr>
 
@@ -536,12 +536,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_UVP_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_UVP_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_UVP_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -551,7 +551,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td>
             or
-            <input type="text" name="FEED_FIELD_UVP_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_UVP_2');?>"/>
+            <input type="text" name="FEED_FIELD_UVP_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_UVP_3');?>"/>
         </td>
     </tr>
 
@@ -573,12 +573,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_YATEGOO_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_YATEGOO_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_YATEGOO_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -588,19 +588,19 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td>
             or
-            <input type="text" name="FEED_FIELD_YATEGOO_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_YATEGOO_2');?>"/>
+            <input type="text" name="FEED_FIELD_YATEGOO_3" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_FIELD_YATEGOO_3');?>"/>
         </td>
     </tr>
     <br/>
     <tr>
         <td>• Packet Size:</td>
         <td>
-            <select name="FEED_FIELD_PACKET_SIZE"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE') == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_PACKET_SIZE_1"  style="width: 130px; margin-left: 2px">
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE_1') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
                     echo '<option value='.$column['table_name'].';'.$column['column_name'];
-                    if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE') == $column['table_name'].';'.$column['column_name']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE_1') == $column['table_name'].';'.$column['column_name']) {
                         echo " selected ";
                     }
                     echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
@@ -610,12 +610,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_FIELD_PACKET_SIZE_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -660,12 +660,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
             • Delivery Time:
         </td>
         <td>
-            <select name="FEED_FIELD_PACKET_SIZE"  style="width: 130px; margin-left: 2px">
-                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE') == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_DTIME_1"  style="width: 130px; margin-left: 2px">
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_DTIME_1') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($dbProductsColumns as $key=>$column) {
                     echo '<option value='.$column['table_name'].';'.$column['column_name'];
-                    if ($feedifyConfig->getConfig('FEED_FIELD_PACKET_SIZE') == $column['table_name'].';'.$column['column_name']) {
+                    if ($feedifyConfig->getConfig('FEED_DTIME_1') == $column['table_name'].';'.$column['column_name']) {
                         echo " selected ";
                     }
                     echo'>'.$column['column_name'].' ('.$column['table_name'].')</option>';
@@ -675,12 +675,12 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td >
             or
-            <select name="FEED_FIELD_TAX_RATE_1"  style="width: 130px; margin-left: 2px" >
-                <option value="N" <?php if ($feedifyConfig->getConfig($key) == 'N') echo "selected"; ?> >-- empty --</option>
+            <select name="FEED_DTIME_2"  style="width: 130px; margin-left: 2px" >
+                <option value="N" <?php if ($feedifyConfig->getConfig('FEED_DTIME_2') == 'N') echo "selected"; ?> >-- empty --</option>
                 <?php
                 foreach($attributes as $attribute) {
                     echo '<option value='.$attribute['products_options_id'];
-                    if ($feedifyConfig->getConfig($key) == $attribute['products_options_id']) {
+                    if ($feedifyConfig->getConfig('FEED_DTIME_2') == $attribute['products_options_id']) {
                         echo " selected ";
                     }
                     echo'>'.$attribute['products_options_name'].'</option>';
@@ -742,7 +742,7 @@ if(isset($_POST['FEED_USER']) && isset($_POST['FEED_PASS']) && isset($_POST['FEE
         </td>
         <td>
             or
-            <input type="text" name="FEED_SHIPPING_ADDITION_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_1');?>">
+            <input type="text" name="FEED_SHIPPING_ADDITION_2" style="margin-left: 2px; width: 130px;" value="<?php echo $feedifyConfig->getConfig('FEED_SHIPPING_ADDITION_2');?>">
             <br/>
         </td>
     </tr>

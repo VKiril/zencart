@@ -114,14 +114,13 @@ class FeedConnector implements FeedPlugin {
         $shopConfig = $this->getShopConfig();
 
         do{
-            //$temp_result = $product = $this->config->getProductsResource($queryParameters, $offset, $limit);
+
             $products   = $this->config->getProducts($limit, $offset,$queryParameters);
             $attributes = $this->config->getProductsAttr();
             $count = 0;
 
             foreach ($products as $product) {
                 $this->config->uploadCSVfileWithCombinations($csv_file,$product,$attributes,$fieldMap, $shopConfig,$queryParameters);
-               // flush();
                 ++$count;
             }
             $offset += $limit;
